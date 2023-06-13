@@ -27,9 +27,9 @@ from firebase_admin import credentials
 from firebase_admin import db
 
 # Path para o arquivo JSON de credenciais
-cred = credentials.Certificate(r'Dados/analise-ativos-firebase-adminsdk-j64bc-81c5088e13.json')
+cred = credentials.Certificate(r'[seu_certificado_aqui]')
 firebase_admin.initialize_app(cred, {
-    'databaseURL': 'https://analise-ativos-default-rtdb.firebaseio.com/'
+    'databaseURL': '[seu_link_aqui]'
 })
 
 # Inicialize o aplicativo Firebase
